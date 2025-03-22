@@ -17,8 +17,6 @@ const img = [
   "https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111810_1280.jpg",
 ];
 
-const siteId = import.meta.env.VITE_WEBSITE_ID;
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <section className="h-screen" style={{ position: "relative" }}>
@@ -69,9 +67,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </ul>
       </div>
     </section>
-    <script
-      src="https://plausible.kaisersakhi.com/script.js"
-      data-website-id={siteId}
-    ></script>
   </React.StrictMode>
 );
